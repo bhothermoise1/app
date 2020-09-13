@@ -1,0 +1,47 @@
+	input {
+width: 50%;
+border: 2px solid #aaa;
+border-radius: 4px;
+margin: 8px 0;
+outline: none;
+padding:8px;
+box-sizing: border-box;
+transition: 2s;
+
+	}
+	input:focus {
+border-color:dodgerBlue;
+box-shadow: 0 0 8px 0 dodgerBlue;
+
+
+	}
+	.input input{
+
+		padding-left: 40px;
+
+	}
+
+	.input{
+
+		position: relative;
+	}
+
+	.input i {
+position: absolute;
+left: 0;
+top: 8px;
+padding: 9px 8px;
+color: #aaa;
+transition: .2s;
+	}
+
+
+	.input input:focus + i{
+
+		color: dodgerBlue;
+	}
+
+	.formularioP{
+
+		margin-left: 400px;
+	}
