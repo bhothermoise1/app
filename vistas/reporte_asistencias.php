@@ -17,8 +17,8 @@ $reporte_asistencias = new reporte_asistencias();
     <link rel="stylesheet" type="text/css" href="../librerias/css/alertify.css">
 
     <!--Libreria de para la grafica-->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+    <script type="text/javascript" src="../js/echarts.min.js"></script>
+    <script type="text/javascript" src="../js/echarts-gl.min.js"></script>
 
 
 </head>
