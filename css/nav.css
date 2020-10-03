@@ -1,8 +1,8 @@
 body{
 	
 	font-family: sans-serif;
-	
 }
+
 *{
 padding: 0;
 margin: 0;
@@ -16,8 +16,9 @@ left: -250px;
 width: 250px;
 height: 100%;
 background:#13ABBD;
-transition: all .5s ease
-margin-top:0px;
+transition: all .5s ease;
+margin-top: 0px;
+z-index: 99;
 }
 
 .sidebar header {
@@ -34,7 +35,7 @@ user-select: none;
 display: block;
 height: 100%;
 width: 100%;
-line-height: 65px;
+line-height: 8vh;
 font-size: 20px;
 color: white;
 padding-left: 40px;
