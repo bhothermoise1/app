@@ -56,8 +56,8 @@ $reporte_asistencias = new reporte_asistencias();
             <br>
 
             <div class="card mb-5">
-                <div style="position: relative;right: 0;z-index:9999">
-                <input class="btn btn-primary" type="button" name="imprimir" value="Imprimir" onclick="window.print();">
+                <div class="m-1">
+                <input class="btn btn-primary" type="button" value="PDF-Print" onclick="window.print();">
                 </div>
                 <div class="card-body vh-100">
 
